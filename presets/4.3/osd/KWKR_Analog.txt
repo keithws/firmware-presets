@@ -1,0 +1,59 @@
+#$ TITLE: KWKR - Analog
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: analog
+#$ AUTHOR: KWKR (Keith W Kelley)
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: I am a freestyle and long-range pilot.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: My analog OSD setup for NTSC. Most info is tucked into the corners, except warnings are front and center. Battery voltage, bottom middle. RF status, bottom left. Name and VTX settings, top left. Throttle position, bottom right. Optionally (if equipped), altitude and vertical speed indicator, top right. Home Arrow and distance from home, middle left and right.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Shows cell voltage and uses RX SNR instad of RSSI dbm.
+# TODO add option for cell voltage or battery voltage
+#$ DESCRIPTION: 
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/NNN
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set crsf_use_rx_snr = ON
+set report_cell_voltage = ON
+set osd_warn_batt_not_full = OFF
+set osd_warn_visual_beeper = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_rssi_dbm = ON
+set osd_rssi_alarm = 4
+set osd_rssi_dbm_alarm = -95
+set osd_cap_alarm = 1500
+set osd_alt_alarm = 122
+set osd_vbat_pos = 34
+set osd_rssi_pos = 377
+set osd_link_quality_pos = 2401
+set osd_link_tx_power_pos = 2433
+set osd_rssi_dbm_pos = 2369
+set osd_tim_2_pos = 386
+set osd_throttle_pos = 2457
+set osd_vtx_channel_pos = 2049
+set osd_mah_drawn_pos = 387
+set osd_craft_name_pos = 2081
+set osd_gps_speed_pos = 79
+set osd_gps_sats_pos = 2241
+set osd_home_dir_pos = 2245
+set osd_home_dist_pos = 2264
+set osd_altitude_pos = 18456
+set osd_warnings_pos = 2250
+set osd_avg_cell_voltage_pos = 2444
+set osd_nvario_pos = 2104
+set osd_stat_max_dist = ON
+set osd_stat_min_batt = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_max_alt = ON
+set osd_stat_bbox = OFF
+set osd_stat_min_link_quality = ON
+set osd_stat_total_dist = ON
+set osd_stat_min_rssi_dbm = ON
+set vcd_video_system = NTSC
