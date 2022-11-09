@@ -172,7 +172,7 @@
       "Justice - Gary Kent",
       "Jye Smith",
       "KMfpv",
-      "KWKR (Keith W Kelley)",
+      "KWKR (Keith Kelley)",
       "LeadFingers",
       "MinChan Kim",
       "mouseFPV",
@@ -852,7 +852,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/KWKR_Analog.txt",
-      "hash": "0a689a2f2db3156e888b7853d79412a5f9fcc4cf53faa17aa0eb523800d35945",
+      "hash": "aee947162e57fb3b2602dc45e1dd07d570f92ed845cda33c21f368d8cd391e8c",
       "title": "KWKR - Analog",
       "firmware_version": [
         "4.3"
@@ -862,7 +862,7 @@
       "keywords": [
         "analog"
       ],
-      "author": "KWKR (Keith W Kelley)",
+      "author": "KWKR (Keith Kelley)",
       "priority": 0
     },
     {
