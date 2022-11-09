@@ -3,7 +3,7 @@
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: analog
-#$ AUTHOR: KWKR (Keith W Kelley)
+#$ AUTHOR: KWKR (Keith Kelley)
 
 #$ PARSER: MARKED
 
